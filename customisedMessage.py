@@ -4,7 +4,7 @@ import time
 import pyautogui
 
 # Load the Excel file
-file_path = "contact.xlsx"  # Replace with your file path
+file_path = "contacts.xlsx"  # Replace with your file path
 data = pd.read_excel(file_path)
 
 # Define the message template
