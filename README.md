@@ -8,7 +8,7 @@ This project allows you to automate sending bulk messages on WhatsApp using Pyth
 - [Installation](#installation)
 - [Usage](#usage)
 - [How It Works](#how-it-works)
-- [Excel File Format](#excel-file-format)
+- [Excel File Format](#excel)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
@@ -30,8 +30,8 @@ Follow these basic steps to install and run the project.
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/whatsapp-automation.git
-cd whatsapp-automation
+git clone https://github.com/Harshilmalhotra/whatsapp-bulk-message-bot.git
+cd whatsapp-bulk-message-bot
 ```
 
 #### 2. Install Python
@@ -53,7 +53,7 @@ pip install pandas pywhatkit pyautogui openpyxl
 - **pyautogui**: To close browser tabs.
 - **openpyxl**: For Excel file operations.
 
-## 4. Prepare Your Excel File
+## 4. Excel File Format
 
 Create an Excel file named `contacts.xlsx` in the root directory of the project. This file should contain the contact names and phone numbers.
 
@@ -73,7 +73,7 @@ Create an Excel file named `contacts.xlsx` in the root directory of the project.
 Once you have installed the required dependencies and prepared your Excel file, you can run the script:
 
 ```bash
-python wa.py
+python <ilename>.py
 ```
 
 ## Troubleshooting
